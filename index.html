@@ -8,13 +8,13 @@
     <title>Flowers Market</title>
   </head>
 
-  <body class="sm:font-bold sm:max-w-[1140px] mx-auto">
+  <body class="sm:font-bold bg-[#F5F8FF]">
     <!-- colors: #8987A1, orange-500 -->
     <!-- p: class="mt-5 text-[#8987A1] text-sm sm:text-xl" -->
 
-    <header>
+    <header class="sm:max-w-[1140px] mx-auto">
       <!-- nav starts -->
-      <nav class="mt-8 flex justify-between items-center">
+      <nav class="mt-8 mx-5 flex justify-between items-center">
         <img src="./assets/logo.png" alt="flower market logo" />
 
         <div class="flex gap-7">
@@ -47,9 +47,9 @@
       </section>
     </header>
 
-    <main>
+    <main >
       <!-- Plants section -->
-      <section class="mt-15">
+      <section class="mt-15 sm:max-w-[1140px] mx-auto">
         <h1 class="font-bold text-center text-2xl sm:text-5xl">
           <span class="text-orange-500">OUR</span> <span>PLANTS</span>
         </h1>
@@ -177,7 +177,7 @@
       </section>
 
       <!-- Plants Lover Section -->
-      <section class="mt-20 px-4 sm:flex items-center gap-14">
+      <section class="mt-20 px-4 sm:flex items-center gap-14 sm:max-w-[1140px] mx-auto">
         <img
           class="w-full"
           src="./assets/flower-store.png"
@@ -204,16 +204,23 @@
           </ul>
         </div>
       </section>
-      <!--  -->
+      <!-- Join Section -->
+       <section class="mx-auto mt-20 bg-[url(./assets/news-letter-bg.png)] w-full h-70 sm:w-[1440px] sm:h-135 grid content-center gap-8">
+        <h1 class="text-center font-bold text-3xl sm:text-5xl text-white">Join The Colorful Bunch</h1>
+        <div class="flex justify-center ">
+          <input type="text" class="bg-white pl-5 sm:w-170 sm:text-2xl" placeholder="Write Email">
+          <input type="button" class="font-bold bg-orange-500 sm:px-20 px-5 py-3 sm:py-4 text-sm sm:text-2xl text-white " value="Subscribe">
+        </div>
+       </section>
     </main>
-    <footer class="my-15 mx-5">
-      <img class="m-5" src="./assets/logo.png" alt="flower market logo" />
+    <footer class="my-15 ml-7 sm:max-w-[1140px] sm:mx-auto">
+      <img class="mb-5 " src="./assets/logo.png" alt="flower market logo" />
       <p class="text-base text-[#8987A1]">
         Indulge your senses with the beauty and fragrance of our fresh flower
         shop.
       </p>
 
-      <ul class="list-none mt-7 gap-8 grid sm:grid-cols-2">
+      <ul class="list-none mt-7 ml-2 gap-8 grid sm:grid-cols-2">
         <li class="text-base text-[#8987A1]">Home</li>
         <li class="text-base text-[#8987A1]">About Us</li>
         <li class="text-base text-[#8987A1]">Blog</li>
